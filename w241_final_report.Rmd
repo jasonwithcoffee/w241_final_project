@@ -1,0 +1,48 @@
+---
+title: "w241_final_report"
+author: "Emily Fernandes, George Rodriguez, Giulia Olsson, Jason Yang"
+date: "4/9/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load packages, warning=FALSE, message=FALSE}
+library(data.table)
+library(sandwich)
+library(lmtest)
+library(ggplot2)
+library(patchwork)
+library(foreign)
+library(pwr)
+inline_reference <- "r inline_reference"
+```
+
+## R Markdown
+
+```{r}
+d <- read.csv(file = 'MIDS_App_Data.csv')
+head(d)
+```
+
+
+```{r}
+mod_basic <- lm(recruiter_responded ~ Resume_type + job_type,data=d)
+
+summary(mod_basic)
+```
+
+
+```{r}
+# power calculation
+# https://med.und.edu/daccota/_files/pdfs/berdc_resource_pdfs/sample_size_r_module.pdf
+pwr.t.test(d=0.25, sig.level = 0.05, power =0.8, type = "one.sample", alternative="greater")
+
+```
+
+One-tailed test with medium effect size (d=0.25)
+
+
+
