@@ -17,6 +17,7 @@ library(ggplot2)
 library(patchwork)
 library(foreign)
 library(pwr)
+library(stargazer)
 inline_reference <- "r inline_reference"
 ```
 
@@ -29,17 +30,60 @@ head(d)
 
 
 ```{r}
-mod_basic <- lm(recruiter_responded ~ Resume_type + job_type,data=d)
+mod_basic <- lm(recruiter_responded ~ Resume_type,data=d)
+mod_job <- lm(recruiter_responded ~ Resume_type + job_type,data=d)
 
-summary(mod_basic)
+robust_se_b <- sqrt(diag(vcovHC(mod_basic, type = "HC1")))
+robust_se_j <- sqrt(diag(vcovHC(mod_job, type = "HC1")))
+
+stargazer(mod_basic,mod_job, type = "text",
+          se = list(robust_se_b,robust_se_j),
+          column.labels = c('Basic','Job Type as Variable'))
 ```
+```{r hajj randomization inference, include=TRUE}
+job_ate = mod_basic$coefficients[2]
+N=length(d$recruiter_responded)
 
+#Defines Function to calculate ATE from dataframe
+calc_ATE <- function(d) { 
+  #m <- d[ ,list(mean=mean(recruiter_responded)), by=Resume_type]
+  mean_t = mean(d$recruiter_responded[d$Resume_type==2])
+  mean_c = mean(d$recruiter_responded[d$Resume_type==1])
+  
+  ate <- mean_t - mean_c 
+  return(ate)
+}
+#Defines Function to that randomizes the data n times 
+#and calculates all those ATEs
+run_RI <- function(n, d) { 
+  d_i = d
+  distribution_n <- vector( "numeric" , n )
+  
+  steps = seq(1, n, by=1)
+  for (i in steps )
+  {
+  Resume_type_i<- rep(c(1, 2), each = ceiling(N/2))
+  Resume_type_i<- sample(Resume_type_i,N)
+
+  d_i$Resume_type = Resume_type_i
+  ATE_i = calc_ATE(d_i)
+  distribution_n[i]=ATE_i 
+  }
+  return(distribution_n)
+}
+
+#Run Random Inference
+n = 10000
+job_ri_distribution <- run_RI(n, d)
+#Plot Histogram of RI(n=10,000) with our actual experiment's ATE
+hist(job_ri_distribution, col="lightblue")
+abline(v = job_ate, col="black", lwd=3, lty=2)
+```
 
 ```{r}
 # power calculation
 # https://med.und.edu/daccota/_files/pdfs/berdc_resource_pdfs/sample_size_r_module.pdf
 pwr.t.test(d=0.25, sig.level = 0.05, power =0.8, type = "one.sample", alternative="greater")
-
 ```
 
 One-tailed test with medium effect size (d=0.25)

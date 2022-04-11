@@ -1,31 +1,22 @@
 job_number,Applied_By,Applied_Date,Date_found,Response_due_date,Resume_type,company,Job Board Link (LinkedIn),Job Application Link,job_title,recruiter_responded,job_type
 1,Jason,2/27/2022,2/25/2022,3/13/2022,1,Zipcar,LinkedIn,https://americas.zipcar.avisbudgetgroup.jobs/vacancy/data-scientist-63147-usa---boston---35-thomson-pl/63167/description/,Data Scientist,0,S
-2,Jason,2/27/2022,2/25/2022,3/13/2022,2,Sallie Mae,LinkedIn,https://salliemaeyouniversity.csod.com/ux/ats/careersite/5/home/requisition/1198?c=salliemaeyouniversity,Associate Data Scientist,0,S
 3,Jason,2/27/2022,2/25/2022,3/13/2022,1,Booz Allen,LinkedIn,https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/USA-TX-San-Antonio-3133-General-Hudnell-Dr/Data-Scientist--Mid_R0122238?source=CWS-17380,Data Scientist,0,S
 4,Jason,2/27/2022,2/25/2022,3/13/2022,2,HelpSystems,LinkedIn,https://helpsystems.csod.com/ux/ats/careersite/1/home/requisition/1413?c=helpsystems,Data Scientist ,0,S
-5,Jason,2/27/2022,2/25/2022,3/13/2022,2,CVS (Chicago),LinkedIn,https://jobs.cvshealth.com/job/15123558/data-scientist/,Data Scientist ,0,S
 6,Jason,2/27/2022,2/25/2022,3/13/2022,1,McKinsey,LinkedIn,https://www.mckinsey.com/careers/search-jobs/jobs/datascientist-defenseandsecurity-42390,Data Scientist ,0,S
 7,Jason,2/27/2022,2/25/2022,3/13/2022,2,Big Cloud,LinkedIn,https://bigcloud.global/job/data-scientist-19/,Data Scientist ,0,S
-8,Jason,2/27/2022,2/25/2022,3/13/2022,2,Blackbaud,LinkedIn,https://careers.blackbaud.com/us/en/job/R0008702/Marketing-Data-Scientist,Marketing Data Scientist,0,S
 9,Jason,2/27/2022,2/25/2022,3/13/2022,2,Dice,LinkedIn,https://www.dice.com/jobs/detail/Data-Scientist-Mastech-Digital-Albany-NY-12201/gatpa001/257976,Data Scientist ,0,S
 10,George,3/1/2022,2/25/2022,3/15/2022,2,Symphony AI,LinkedIn,https://ayasdi.bamboohr.com/jobs/view.php?id=136#content,Data Scientist ,0,S
-11,George,3/1/2022,2/25/2022,3/15/2022,2,Indigo,LinkedIn,https://boards.greenhouse.io/indigo/jobs/3672968,Associate Data Scientist,0,S
 12,George,3/1/2022,2/25/2022,3/15/2022,1,NIH,LinkedIn,https://asms-jobs.careerwebsite.com/jobseeker/job/61589441/Data%20scientist%20at%20CARD/NIH/,Data Scientist ,0,S
-13,George,3/1/2022,2/25/2022,3/15/2022,2,StreetLight,LinkedIn,https://jobs.lever.co/streetlightdata/082298bb-18dc-4d7c-b21c-629d30ecd99b,Data Scientist ,0,S
 14,George,3/1/2022,2/25/2022,3/15/2022,1,Home Depot,LinkedIn,https://careers.homedepot.com/job/14807053/associate-data-scientist-marketing-online-remote-atlanta-ga/,Associate Data Scientist,0,S
 15,George,3/1/2022,2/25/2022,3/15/2022,2,Weee!,LinkedIn,https://about.sayweee.com/careers/career_list?gh_jid=4462738003,Data Scientist ,0,S
 16,George,3/1/2022,2/25/2022,3/15/2022,1,Zeiss,LinkedIn,https://zeissgroup.wd3.myworkdayjobs.com/External/job/Dublin-CA/Data-Scientist_JR_1000981?source=ZEISS,Data Scientist ,0,S
 17,George,3/1/2022,2/25/2022,3/15/2022,2,Pfizer,LinkedIn,https://pfizer.dejobs.org/pearl-river-ny/data-scientist-vaccine-rd-data-management/07827FA9D88940259E3CA16804F49724/job/,Data Scientist ,0,S
-18,George,3/1/2022,2/25/2022,3/15/2022,2,Criteria Corp,LinkedIn,https://criteria-corp.breezy.hr/p/ec9e256fae1f-data-scientist-remote,Data Scientist ,0,S
 19,Giulia,3/2/2022,2/25/2022,3/16/2022,1,Abt Associates,LinkedIn,https://abtassociates.dejobs.org/rockville-md/environmental-data-scientist/537A5E10E04C4C72A419876733BFA990/job/,Environmental Data Scientist,0,S
 20,Giulia,3/2/2022,2/25/2022,3/16/2022,2,Bayer,LinkedIn,https://jobs.bayer.com/job/Whippany-Data-Scientist%2C-Business-Analytics-&-Forecasting-New/766614901/,"Data Scientist, Business Analytics & Forecasting ",0,S
-21,Giulia,3/2/2022,2/25/2022,3/16/2022,2,Civis,LinkedIn,https://boards.greenhouse.io/civisanalytics/jobs/3787833,Applied Data Scientist,0,S
 22,Giulia,3/2/2022,2/25/2022,3/16/2022,1,LEK,LinkedIn,https://lek.tal.net/vx/lang-en-GB/mobile-0/appcentre-2/brand-2/candidate/so/pm/1/pl/6/opp/2752-Data-Scientist/en-GBB,Data Scientist ,0,S
 23,Giulia,3/2/2022,2/25/2022,3/16/2022,2,NYPA,LinkedIn,https://careers.nypa.gov/job/White-Plains-Data-Scientist-I-NY-10601/847718700/,Data Scientist I,0,S
-24,Giulia,3/2/2022,2/25/2022,3/16/2022,2,Bank of America,LinkedIn,https://careers.bankofamerica.com/en-us/job-detail/22009696/data-scientist-i-charlotte-north-carolina-united-states,Data Scientist I,0,S
 25,Giulia,3/2/2022,2/25/2022,3/16/2022,1,MARS,LinkedIn,https://careers.mars.com/us/en/job/R12982/Graduate-Data-Scientist-Role-Can-be-Remote,Graduate Data Scientist,0,S
 26,Giulia,3/2/2022,2/25/2022,3/16/2022,2,Battelle,LinkedIn,https://battelle.dejobs.org/columbus-oh/data-scientistmodeler/163F42982D7F41B499858C662DBD8BB1/job/,Data Scientist/Modeler,0,S
-27,Giulia,3/2/2022,2/25/2022,3/16/2022,2,ExxonMobil ,LinkedIn,https://jobs.exxonmobil.com/ExxonMobil/job/Houston-Data-Scientist-TX-77001/843568600/,Data Scientist ,0,S
 28,Giulia,3/2/2022,2/25/2022,3/16/2022,1,Knowledge Services,LinkedIn,https://careers-knowledgeservices.icims.com/jobs/23335/data-scientist-%28remote%29/job,Data Scientist ,0,S
 29,Giulia,3/2/2022,2/25/2022,3/16/2022,2,Exact Sciences,LinkedIn,https://careers-exactsciences.icims.com/jobs/10561/data-scientist-%E2%80%93-operational-analytics/job?mobile=false&width=664&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,Data Scientist – Operational Analytics,0,S
 30,Emily,3/10/2022,2/25/2022,3/24/2022,1,BAE Systems ,LinkedIn,https://jobs.baesystems.com/global/en/job/78196BR/Business-Intelligence-Analyst-Data-Scientist,Data Scientist ,0,S
@@ -39,7 +30,6 @@ job_number,Applied_By,Applied_Date,Date_found,Response_due_date,Resume_type,comp
 38,Emily,3/10/2022,2/25/2022,3/24/2022,1,Fluor,LinkedIn,https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=511&siteid=231&PageType=JobDetails&jobid=1508802#jobDetails=1508802_231,Data Scientist I,0,S
 39,Emily,3/27/2022,2/25/2022,4/10/2022,2,SAIC,LinkedIn,https://jobs.saic.com/jobs/8716370-data-scientist-slash-data-modeler,DATA SCIENTIST/DATA MODELER,0,S
 40,Emily,3/10/2022,2/25/2022,3/24/2022,1,MITRE,LinkedIn,https://mitre.talentify.io/job/data-scientist-huntsville-alabama-mitre-r106496,Data Scientist ,0,S
-41,Emily,3/10/2022,2/25/2022,3/24/2022,1,HX5,LinkedIn,https://phe.tbe.taleo.net/phe01/ats/careers/v2/viewRequisition?org=ACDY28&cws=37&rid=1012,Data Analyst,0,A
 42,Emily,3/27/2022,2/25/2022,4/10/2022,2,DTE Energy,LinkedIn,https://careers.dteenergy.com/job/Detroit-Data-Scientist-%28Customer-Service%29-MI-48201/846960700/,Data Scientist ,0,S
 43,Emily,3/10/2022,2/25/2022,3/24/2022,1,Chewy ,LinkedIn,https://careers.chewy.com/us/en/job/3839598/Staff-Data-Scientist-Statistics,"Staff Data Scientist, Statistics",0,S
 44,Emily,3/10/2022,2/25/2022,3/24/2022,1,OnPoint,LinkedIn,https://jobs.kochcareers.com/jobs/8586070-data-scientist,Data Scientist ,0,S
@@ -56,7 +46,6 @@ job_number,Applied_By,Applied_Date,Date_found,Response_due_date,Resume_type,comp
 55,Jason,3/27/2022,2/25/2022,4/10/2022,1,Mayo Clinic,LinkedIn,https://apply.mayoclinic.org/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25309&siteid=5277&jobid=2752181#jobDetails=2752181_5277,Data Scientist - Quantitative Health Sciences,0,S
 56,Jason,3/27/2022,2/25/2022,4/10/2022,2,"Systems Planning and Analysis, Inc. (SPA)",LinkedIn,https://careers-spa.icims.com/jobs/5662/data-scientist/job?hub=6&mobile=false&width=780&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,Data Scientist ,0,S
 57,Jason,3/27/2022,2/25/2022,4/10/2022,2,Genomatica ,LinkedIn,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ad59ae21-92c3-4408-943a-f906b754b7b7&ccId=19000101_000001&jobId=434534&source=CC2&lang=en_US,Associate Data Scientist / Data Scientist,0,S
-58,Jason,3/27/2022,2/25/2022,4/10/2022,2,Ford Motor Company,LinkedIn,https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25385&siteid=5186&PageType=JobDetails&jobid=569455#jobDetails=569455_5186,Marketing Analytics/Data Scientist ,0,S
 59,Jason,3/27/2022,2/25/2022,4/10/2022,1,Current,LinkedIn,https://www.builtinnyc.com/job/data/product-data-scientist/129522,Product Data Scientist,0,S
 60,Jason,3/27/2022,2/25/2022,4/10/2022,2,Wawa,LinkedIn,https://wawa.wd1.myworkdayjobs.com/en-US/careers/job/WAWA---Wawa-Inc---Corporate-Office/Data-Scientist_JR107816,Data Scientist ,0,S
 61,Jason,3/27/2022,2/25/2022,4/10/2022,1,Chegg,LinkedIn,https://osv-chegg.wd5.myworkdayjobs.com/en-US/Chegg/job/Santa-Clara-CA/Staff-Data-Scientist_R920-1,Staff Data Scientist,0,S
@@ -78,59 +67,59 @@ job_number,Applied_By,Applied_Date,Date_found,Response_due_date,Resume_type,comp
 77,Jason,3/27/2022,2/25/2022,4/10/2022,2,U.S. Bank,LinkedIn,https://usbank.wd1.myworkdayjobs.com/en-US/US_Bank_Careers/job/Remote-OH/Security-Data-Scientist_2022-0003482,Data Scientist ,0,S
 78,Giulia,3/26/2022,2/25/2022,4/9/2022,1,DRIZLY ,LinkedIn,https://jobs.lever.co/drizly/822310c8-5c78-4608-a9a4-98c2a0820b22,"Data Scientist, Product",0,S
 79,Giulia,3/29/2022,2/25/2022,4/12/2022,1,The School of Medicine and Public Health,LinkedIn,https://jobs.hr.wisc.edu/en-us/job/511837/data-scientist,Data Scientist ,0,S
-80,Giulia,03/26/22,2/28/2022,4/9/2022,1,Klaviyo,LinkedIn,https://boards.greenhouse.io/klaviyo/jobs/4981055003?gh_src=1284ec8c3us&s=LinkedIn&source=LinkedIn,Data Scientist ,0,S
-81,Giulia,03/26/22,2/28/2022,4/9/2022,1,Blockchain.com,LinkedIn,https://boards.greenhouse.io/blockchain/jobs/3035279,Data Scientist ,0,S
-82,Giulia,03/26/22,2/28/2022,4/9/2022,1,Rivian,LinkedIn,https://boards.greenhouse.io/rivian/jobs/4934283003?s=LinkedIn&source=LinkedIn,Staff Data Scientist,0,S
-83,Giulia,03/26/22,2/28/2022,4/9/2022,2,Square,LinkedIn,https://jobs.smartrecruiters.com/Square/743999805298239-data-scientist-developers?source=Linkedin,Data Scientist ,0,S
-84,Giulia,03/26/22,2/28/2022,4/9/2022,1,Habitat Energy,LinkedIn,https://habitatenergy.bamboohr.com/jobs/view.php?id=48&source=aWQ9OQ%3D%3D,Data Scientist ,0,S
-85,Giulia,03/26/22,2/28/2022,4/9/2022,2,Quizlet,LinkedIn,https://jobs.lever.co/quizlet-2/40c86043-d699-4874-b41e-105f7cd06b18?lever-source=LinkedInJobs,Data Scientist ,0,S
+80,Giulia,3/26/2022,2/28/2022,4/9/2022,1,Klaviyo,LinkedIn,https://boards.greenhouse.io/klaviyo/jobs/4981055003?gh_src=1284ec8c3us&s=LinkedIn&source=LinkedIn,Data Scientist ,0,S
+81,Giulia,3/26/2022,2/28/2022,4/9/2022,1,Blockchain.com,LinkedIn,https://boards.greenhouse.io/blockchain/jobs/3035279,Data Scientist ,0,S
+82,Giulia,3/26/2022,2/28/2022,4/9/2022,1,Rivian,LinkedIn,https://boards.greenhouse.io/rivian/jobs/4934283003?s=LinkedIn&source=LinkedIn,Staff Data Scientist,0,S
+83,Giulia,3/26/2022,2/28/2022,4/9/2022,2,Square,LinkedIn,https://jobs.smartrecruiters.com/Square/743999805298239-data-scientist-developers?source=Linkedin,Data Scientist ,0,S
+84,Giulia,3/26/2022,2/28/2022,4/9/2022,1,Habitat Energy,LinkedIn,https://habitatenergy.bamboohr.com/jobs/view.php?id=48&source=aWQ9OQ%3D%3D,Data Scientist ,0,S
+85,Giulia,3/26/2022,2/28/2022,4/9/2022,2,Quizlet,LinkedIn,https://jobs.lever.co/quizlet-2/40c86043-d699-4874-b41e-105f7cd06b18?lever-source=LinkedInJobs,Data Scientist ,0,S
 86,George,3/28/2022,2/28/2022,4/11/2022,1,JB Hunt Transport,LinkedIn,https://careers.jbhunt.com/jobdescription.aspx?JbReqID=00429933,Data Scientist ,0,S
-87,Giulia,03/26/22,3/1/2022,4/9/2022,1,Grindr ,LinkedIn,https://boards.greenhouse.io/grindr/jobs/3809780?s=LinkedIn&source=LinkedIn,"Data Scientist, Analytics",0,S
-88,Giulia,03/26/22,3/1/2022,4/9/2022,2,Dataiku,LinkedIn,https://jobs.lever.co/dataiku/f036b777-d4df-42f1-a2b1-cac6359e0eb8?lever-source=LinkedInJobs,Data Scientist - Training Specialist (East Coast),0,S
-89,Giulia,03/26/22,3/1/2022,4/9/2022,2,Realty Income Corporation,LinkedIn,https://jobs.jobvite.com/realtyincome/job/osczhfwe?__jvst=Job%20Board&__jvsd=LinkedIn,Data Scientist ,0,S
-90,Giulia,03/26/22,3/1/2022,4/9/2022,1,CAE USA,LinkedIn,https://cae.wd3.myworkdayjobs.com/en-US/career/job/Tampa/Data-Scientist-I_83318,Data Scientist  I,0,S
-91,Giulia,03/26/22,3/1/2022,4/9/2022,1,Point72 Hyperscale,LinkedIn,https://boards.greenhouse.io/p72pi/jobs/5916552002?s=LinkedIn&source=LinkedIn,Data Scientist ,0,S
-92,Giulia,3/26/22,3/1/2022,4/9/2022,2,DataJoint,LinkedIn,https://surveys.datajoint.io/apply-data-engineer,Data Scientist – Neuroscience,0,S
-93,Giulia,3/26/22,3/1/2022,4/9/2022,1,Morning Consult,LinkedIn,https://jobs.lever.co/morningconsult/dede5138-0ec8-4e88-8049-b4ad50519583?lever-source=LinkedInJobs,Data Scientist ,0,S
+87,Giulia,3/26/2022,3/1/2022,4/9/2022,1,Grindr ,LinkedIn,https://boards.greenhouse.io/grindr/jobs/3809780?s=LinkedIn&source=LinkedIn,"Data Scientist, Analytics",0,S
+88,Giulia,3/26/2022,3/1/2022,4/9/2022,2,Dataiku,LinkedIn,https://jobs.lever.co/dataiku/f036b777-d4df-42f1-a2b1-cac6359e0eb8?lever-source=LinkedInJobs,Data Scientist - Training Specialist (East Coast),0,S
+89,Giulia,3/26/2022,3/1/2022,4/9/2022,2,Realty Income Corporation,LinkedIn,https://jobs.jobvite.com/realtyincome/job/osczhfwe?__jvst=Job%20Board&__jvsd=LinkedIn,Data Scientist ,0,S
+90,Giulia,3/26/2022,3/1/2022,4/9/2022,1,CAE USA,LinkedIn,https://cae.wd3.myworkdayjobs.com/en-US/career/job/Tampa/Data-Scientist-I_83318,Data Scientist  I,0,S
+91,Giulia,3/26/2022,3/1/2022,4/9/2022,1,Point72 Hyperscale,LinkedIn,https://boards.greenhouse.io/p72pi/jobs/5916552002?s=LinkedIn&source=LinkedIn,Data Scientist ,0,S
+92,Giulia,3/26/2022,3/1/2022,4/9/2022,2,DataJoint,LinkedIn,https://surveys.datajoint.io/apply-data-engineer,Data Scientist – Neuroscience,0,S
+93,Giulia,3/26/2022,3/1/2022,4/9/2022,1,Morning Consult,LinkedIn,https://jobs.lever.co/morningconsult/dede5138-0ec8-4e88-8049-b4ad50519583?lever-source=LinkedInJobs,Data Scientist ,0,S
 94,Emily,3/11/2022,3/1/2022,3/25/2022,1,Variant,LinkedIn,https://usxpressdevelopment.csod.com/ux/ats/careersite/6/home/requisition/1782?c=usxpressdevelopment,Data Analyst,0,A
 95,Emily,3/11/2022,3/1/2022,3/25/2022,1,VSE Corporation,LinkedIn,https://us61e2.dayforcehcm.com/CandidatePortal/en-US/vsecorp/Site/CANDIDATEPORTAL/Posting/View/3739,Transportation Data Analyst,0,A
 96,Emily,3/11/2022,3/1/2022,3/25/2022,1,Engage3,LinkedIn,https://engage3.breezy.hr/p/ebc373f1a81a-data-analyst,Data Analyst,0,A
-97,Emily,04/05/2022,3/1/2022,4/19/2022,2,CLA,LinkedIn,https://cliftonlarsonallen.wd1.myworkdayjobs.com/en-US/CLA/job/Quincy-MA/Data-Analyst-Associate_R8130?src=APPLICANT_SOURCE-3-38&source=Linkedin,Data Analyst Associate,1,A
+97,Emily,4/5/2022,3/1/2022,4/19/2022,2,CLA,LinkedIn,https://cliftonlarsonallen.wd1.myworkdayjobs.com/en-US/CLA/job/Quincy-MA/Data-Analyst-Associate_R8130?src=APPLICANT_SOURCE-3-38&source=Linkedin,Data Analyst Associate,1,A
 98,Emily,3/11/2022,3/1/2022,3/25/2022,1,"Nice-Pak Products, Inc.",LinkedIn,https://recruiting.ultipro.com/NIC1003/JobBoard/f32c1415-f9f3-4f37-8d92-63cc1f7231c8/OpportunityDetail?opportunityId=fb68471c-c811-44f6-a508-813ee1651389&utm_source=LINKEDIN&utm_medium=referrer,Procurement Data Analyst,0,A
 99,Emily,3/11/2022,3/1/2022,3/25/2022,1,Masesa,LinkedIn,https://boards.greenhouse.io/maesa/jobs/5877692002?gh_src=4672ba852us,Master Data Analyst,0,A
 100,Emily,3/11/2022,3/1/2022,3/25/2022,1,Arcadis ,LinkedIn,https://careers.arcadis.com/job/ARCAGLOBAL3068ORCEXTERNALENGLOBAL/Data-Analyst-Excel-Expert?utm_source=linkedin&utm_medium=phenom-feeds,Data Analyst (Excel Expert),0,A
-101,Emily,04/05/2022,3/1/2022,4/19/2022,2,Gerber Life,LinkedIn,https://careers-westernsouthern.icims.com/jobs/17270/agency-data-analyst---gerber-life-insurance/job?mode=job&iis=Job+Board&iisn=LinkedIn&mobile=false&width=1255&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,Agency Data Analyst - Gerber Life Insurance,0,A
+101,Emily,4/5/2022,3/1/2022,4/19/2022,2,Gerber Life,LinkedIn,https://careers-westernsouthern.icims.com/jobs/17270/agency-data-analyst---gerber-life-insurance/job?mode=job&iis=Job+Board&iisn=LinkedIn&mobile=false&width=1255&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,Agency Data Analyst - Gerber Life Insurance,0,A
 102,Emily,3/11/2022,3/1/2022,3/25/2022,1,Kemper,LinkedIn,https://careers.kemper.com/global/en/job/R-22-0019351,Junior Data Analyst,0,A
 103,Emily,3/11/2022,3/1/2022,3/25/2022,1,Ryder System,LinkedIn,https://jobs.ryder.com/san-diego-ca/senior-data-analyst/40467B6FB3D84FF0950BF2E8A6E099AA/job/,Sr Data Analyst,0,A
 104,Emily,3/11/2022,3/1/2022,3/25/2022,1,CTDI,LinkedIn,https://jobs.silkroad.com/CTDI/Careers/jobs/5782,Data Analyst - Billing,0,A
-105,Emily,04/05/2022,3/1/2022,4/19/2022,2,Polaris Inc,LinkedIn,https://polaris.wd5.myworkdayjobs.com/en-US/PolarisJobs/job/Brooklyn-Park-MN-USA/Data-Analyst_R10542?Codes=W-LINKEDIN,Data Analyst,0,A
+105,Emily,4/5/2022,3/1/2022,4/19/2022,2,Polaris Inc,LinkedIn,https://polaris.wd5.myworkdayjobs.com/en-US/PolarisJobs/job/Brooklyn-Park-MN-USA/Data-Analyst_R10542?Codes=W-LINKEDIN,Data Analyst,0,A
 106,Emily,3/11/2022,3/1/2022,3/25/2022,1,Bowdoin College,LinkedIn,https://careers.bowdoin.edu/postings/8523,Data Analyst,0,A
-107,Emily,04/05/2022,3/1/2022,4/19/2022,2,Tesla,LinkedIn,https://www.tesla.com/careers/search/job/data-analyst-energy-distribution-center-117706?source=LinkedIn,"Data Analyst, Energy Distribution Center",0,A
+107,Emily,4/5/2022,3/1/2022,4/19/2022,2,Tesla,LinkedIn,https://www.tesla.com/careers/search/job/data-analyst-energy-distribution-center-117706?source=LinkedIn,"Data Analyst, Energy Distribution Center",0,A
 108,Emily,3/11/2022,3/1/2022,3/25/2022,1,Wayflyer,LinkedIn,https://jobs.lever.co/wayflyer/f1586bfc-aaed-4108-8bf9-ae0506bb33fc?lever-source=LinkedInJobs,Data Analyst - Forecasting,0,A
 109,George,3/27/2022,3/1/2022,4/10/2022,2,"Bayview Asset Management, LLC",LinkedIn,https://careers.bayview.com/bam/jobs/4290?lang=en-us,Data Analyst,0,A
-110,Giulia,3/26/22,3/1/2022,4/9/2022,1,Insider Intelligence,LinkedIn,https://jobs.lever.co/insider-intelligence/b3ded8e1-d0f8-4495-a367-121d79b9b8e6?lever-source=LinkedInJobs,Data Analyst,0,A
-111,Jason,3/13,3/1/2022,3/27/2022,2,FINN,LinkedIn,https://jobs.lever.co/finn.auto/131d139c-83d2-4774-87f2-2a2f65e3be60?lever-origin=applied&lever-source=LinkedIn,Data Analyst - Finance,1,A
-112,Jason,3/13,3/1/2022,3/27/2022,2,Junior Library Guild,LinkedIn,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=289102ab-4aba-4110-91e5-8414beca6f9a&ccId=19000101_000001&jobId=436127&source=CC2&lang=en_US,CRM Data Analysis (Hybrid),0,A
-113,Jason,3/13,3/1/2022,3/27/2022,2,Ferguson,LinkedIn,https://ferguson.wd1.myworkdayjobs.com/en-US/Ferguson_Experienced/job/Chandler-AZ/Distribution-Center-Data-Analyst_R-85948?Source=Linkedin_Slots&source=Linkedin,Distribution Center Data Analyst,1,A
-114,Jason,3/13,3/1/2022,3/27/2022,1,DLA Piper,LinkedIn,https://dlapiperus.referrals.selectminds.com/jobs/data-analyst-3525,Business Data Analyst ,0,A
-115,Jason,3/13,3/1/2022,3/27/2022,2,Replica,LinkedIn,https://boards.greenhouse.io/replica/jobs/5927322002?gh_jid=5927322002&s=LinkedIn&source=LinkedIn,Data Operations Analyst,1,A
-116,Jason,3/13,3/1/2022,3/27/2022,2,dv01 ,LinkedIn,https://boards.greenhouse.io/dv01/jobs/5844048002?s=LinkedIn&source=LinkedIn,"Data Analyst, ESG",1,A
-117,Jason,3/13,3/1/2022,3/27/2022,1,Troutman Pepper LLP,LinkedIn,https://troutman.wd5.myworkdayjobs.com/en-US/TPRecruit1/job/Philadelphia/Data-Analyst_R1264?source=Linkedin,Data Analyst,0,A
-118,Jason,3/13,3/1/2022,3/27/2022,2,lime,LinkedIn,https://jobs.lever.co/lime/6f071174-d375-4c7d-9a25-5ad83dc89a49?lever-source=LinkedInJobs,Financial Data Analyst,0,A
-119,Jason,3/13,3/1/2022,3/27/2022,1,Alma,LinkedIn,https://boards.greenhouse.io/alma/jobs/5790290002?gh_src=94b85f012us,Junior Data Analyst,0,A
-120,Jason,3/13,3/2/2022,3/27/2022,1,Great American Life Insurance Co,LinkedIn,https://massmutual.wd1.myworkdayjobs.com/en-US/GALICCareers/details/Data-Developer---Analyst_R10993?source=Linkedin,Data Developer / Analyst,1,A
-121,Jason,3/13,3/2/2022,3/27/2022,1,Corteva Agriscience,LinkedIn,https://careers.corteva.com/job-en/15119686/data-analyst-modeler-100-remote-is-an-option-global-us-nationwide/?kta_src=SNS-12041&kta_apply=pi4.FTO_oPgB-y-K.J&sf_aid=fc063803-f46e-47c5-ade4-0de7db269e9e,Data Analyst/Modeler,1,A
-122,Jason,3/13,3/2/2022,3/27/2022,2,NewYork-Presbyterian Hospital,LinkedIn,https://careers.nyp.org/job/-/-/19715/13958620336?utm_source=linkedin.com&utm_campaign=nyp&utm_medium=social_media&utm_content=job_posting&ss=paid&source=TMP_linkedin_job_posting&dclid=CjgKEAiAyPyQBhD_75r95rTG1BoSJACjuSz8urb7RVV0qpXP1po08rvga2FvQpj5Xzng1iDfiWD0ePD_BwE,Data Scientist,0,S
-123,Jason,3/13,3/2/2022,3/27/2022,2,American International College,LinkedIn,https://aic.interviewexchange.com/jobofferdetails.jsp;jsessionid=E25B0887805F30766CAB44982401CD94;jsessionid=ACF95C406FDC1A735E56FC314FD8F16B;jsessionid=E86090D324EE2657AE5B157F75975F79;jsessionid=8850572776C92A3C90ABD1F14583AD86;jsessionid=27E105921D69ECA8A5AF36DF9A68FEF9?JOBID=139667,Data Analyst,0,A
-124,Jason,3/13,3/2/2022,3/27/2022,2,Upwork,LinkedIn,https://www.upwork.com/careers/job-form?gh_jid=4994822003&hsLang=en&gh_src=2ecf0e153,Product Data Analyst,0,A
-125,Jason,3/13,3/2/2022,3/27/2022,2,WarehouseQuote,LinkedIn,https://northpoint-development.breezy.hr/p/3246e5988532-data-analyst-warehousequote,Data Analyst,0,A
-126,Jason,3/13,3/2/2022,3/27/2022,2,CEVA Logistics,LinkedIn,https://www.cevalogistics.com/en/careers/job-ad?reference=112859&lang=en_US&locale=en_US,SUPPLY CHAIN OPERATIONS SPECIALIST III (DATA ANALYST),0,A
-127,Jason,3/13,3/2/2022,3/27/2022,2,Noblis,LinkedIn,https://jobs-noblis.icims.com/jobs/11576/data-analyst-data-scientist/job?mode=job&iis=Job+Board&iisn=LinkedIn&mobile=false&width=1155&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,Data Analyst/Data Scientist,0,A
-128,Jason,3/13,3/2/2022,3/27/2022,1,Full Beaker,LinkedIn,https://fullbeaker.com/job?gh_jid=4938221003&gh_jid=4938221003,Data Reporting Analyst/Wrangler,1,A
-129,George,3/13/22,3/2/2022,3/27/2022,2,Blue Cross Blue Shield of Michigan,LinkedIn,https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/4150?utm_medium=jobshare&src=SNS-102,Data Analyst,0,A
-130,George,3/13/22,3/2/2022,3/27/2022,2,Houlihan Lokey,LinkedIn,https://phh.tbe.taleo.net/phh03/ats/careers/v2/viewRequisition?org=HLHZ&cws=40&rid=3855&source=LinkedIn&src=LinkedIn&gns=LinkedIn,Data Analyst,0,A
-131,George,3/13/22,3/2/2022,3/27/2022,1,SRS Distribution Inc,LinkedIn,https://srsdistribution.wd1.myworkdayjobs.com/Heritage/job/Remote--Texas/Data-Analyst--Pricing-_REQ14075-1/apply?source=Job_Board_LinkedIn,Data Analyst,1,A
-132,George,3/13/22,3/2/2022,3/27/2022,2,North Carolina State University,LinkedIn,https://ncsu-sb.peopleadmin.com/postings/144281,Data Analyst,0,A
+110,Giulia,3/26/2022,3/1/2022,4/9/2022,1,Insider Intelligence,LinkedIn,https://jobs.lever.co/insider-intelligence/b3ded8e1-d0f8-4495-a367-121d79b9b8e6?lever-source=LinkedInJobs,Data Analyst,0,A
+111,Jason,13-Mar,3/1/2022,3/27/2022,2,FINN,LinkedIn,https://jobs.lever.co/finn.auto/131d139c-83d2-4774-87f2-2a2f65e3be60?lever-origin=applied&lever-source=LinkedIn,Data Analyst - Finance,1,A
+112,Jason,13-Mar,3/1/2022,3/27/2022,2,Junior Library Guild,LinkedIn,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=289102ab-4aba-4110-91e5-8414beca6f9a&ccId=19000101_000001&jobId=436127&source=CC2&lang=en_US,CRM Data Analysis (Hybrid),0,A
+113,Jason,13-Mar,3/1/2022,3/27/2022,2,Ferguson,LinkedIn,https://ferguson.wd1.myworkdayjobs.com/en-US/Ferguson_Experienced/job/Chandler-AZ/Distribution-Center-Data-Analyst_R-85948?Source=Linkedin_Slots&source=Linkedin,Distribution Center Data Analyst,1,A
+114,Jason,13-Mar,3/1/2022,3/27/2022,1,DLA Piper,LinkedIn,https://dlapiperus.referrals.selectminds.com/jobs/data-analyst-3525,Business Data Analyst ,0,A
+115,Jason,13-Mar,3/1/2022,3/27/2022,2,Replica,LinkedIn,https://boards.greenhouse.io/replica/jobs/5927322002?gh_jid=5927322002&s=LinkedIn&source=LinkedIn,Data Operations Analyst,1,A
+116,Jason,13-Mar,3/1/2022,3/27/2022,2,dv01 ,LinkedIn,https://boards.greenhouse.io/dv01/jobs/5844048002?s=LinkedIn&source=LinkedIn,"Data Analyst, ESG",1,A
+117,Jason,13-Mar,3/1/2022,3/27/2022,1,Troutman Pepper LLP,LinkedIn,https://troutman.wd5.myworkdayjobs.com/en-US/TPRecruit1/job/Philadelphia/Data-Analyst_R1264?source=Linkedin,Data Analyst,0,A
+118,Jason,13-Mar,3/1/2022,3/27/2022,2,lime,LinkedIn,https://jobs.lever.co/lime/6f071174-d375-4c7d-9a25-5ad83dc89a49?lever-source=LinkedInJobs,Financial Data Analyst,0,A
+119,Jason,13-Mar,3/1/2022,3/27/2022,1,Alma,LinkedIn,https://boards.greenhouse.io/alma/jobs/5790290002?gh_src=94b85f012us,Junior Data Analyst,0,A
+120,Jason,13-Mar,3/2/2022,3/27/2022,1,Great American Life Insurance Co,LinkedIn,https://massmutual.wd1.myworkdayjobs.com/en-US/GALICCareers/details/Data-Developer---Analyst_R10993?source=Linkedin,Data Developer / Analyst,1,A
+121,Jason,13-Mar,3/2/2022,3/27/2022,1,Corteva Agriscience,LinkedIn,https://careers.corteva.com/job-en/15119686/data-analyst-modeler-100-remote-is-an-option-global-us-nationwide/?kta_src=SNS-12041&kta_apply=pi4.FTO_oPgB-y-K.J&sf_aid=fc063803-f46e-47c5-ade4-0de7db269e9e,Data Analyst/Modeler,1,A
+122,Jason,13-Mar,3/2/2022,3/27/2022,2,NewYork-Presbyterian Hospital,LinkedIn,https://careers.nyp.org/job/-/-/19715/13958620336?utm_source=linkedin.com&utm_campaign=nyp&utm_medium=social_media&utm_content=job_posting&ss=paid&source=TMP_linkedin_job_posting&dclid=CjgKEAiAyPyQBhD_75r95rTG1BoSJACjuSz8urb7RVV0qpXP1po08rvga2FvQpj5Xzng1iDfiWD0ePD_BwE,Data Scientist,0,S
+123,Jason,13-Mar,3/2/2022,3/27/2022,2,American International College,LinkedIn,https://aic.interviewexchange.com/jobofferdetails.jsp;jsessionid=E25B0887805F30766CAB44982401CD94;jsessionid=ACF95C406FDC1A735E56FC314FD8F16B;jsessionid=E86090D324EE2657AE5B157F75975F79;jsessionid=8850572776C92A3C90ABD1F14583AD86;jsessionid=27E105921D69ECA8A5AF36DF9A68FEF9?JOBID=139667,Data Analyst,0,A
+124,Jason,13-Mar,3/2/2022,3/27/2022,2,Upwork,LinkedIn,https://www.upwork.com/careers/job-form?gh_jid=4994822003&hsLang=en&gh_src=2ecf0e153,Product Data Analyst,0,A
+125,Jason,13-Mar,3/2/2022,3/27/2022,2,WarehouseQuote,LinkedIn,https://northpoint-development.breezy.hr/p/3246e5988532-data-analyst-warehousequote,Data Analyst,0,A
+126,Jason,13-Mar,3/2/2022,3/27/2022,2,CEVA Logistics,LinkedIn,https://www.cevalogistics.com/en/careers/job-ad?reference=112859&lang=en_US&locale=en_US,SUPPLY CHAIN OPERATIONS SPECIALIST III (DATA ANALYST),0,A
+127,Jason,13-Mar,3/2/2022,3/27/2022,2,Noblis,LinkedIn,https://jobs-noblis.icims.com/jobs/11576/data-analyst-data-scientist/job?mode=job&iis=Job+Board&iisn=LinkedIn&mobile=false&width=1155&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,Data Analyst/Data Scientist,0,A
+128,Jason,13-Mar,3/2/2022,3/27/2022,1,Full Beaker,LinkedIn,https://fullbeaker.com/job?gh_jid=4938221003&gh_jid=4938221003,Data Reporting Analyst/Wrangler,1,A
+129,George,3/13/2022,3/2/2022,3/27/2022,2,Blue Cross Blue Shield of Michigan,LinkedIn,https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/4150?utm_medium=jobshare&src=SNS-102,Data Analyst,0,A
+130,George,3/13/2022,3/2/2022,3/27/2022,2,Houlihan Lokey,LinkedIn,https://phh.tbe.taleo.net/phh03/ats/careers/v2/viewRequisition?org=HLHZ&cws=40&rid=3855&source=LinkedIn&src=LinkedIn&gns=LinkedIn,Data Analyst,0,A
+131,George,3/13/2022,3/2/2022,3/27/2022,1,SRS Distribution Inc,LinkedIn,https://srsdistribution.wd1.myworkdayjobs.com/Heritage/job/Remote--Texas/Data-Analyst--Pricing-_REQ14075-1/apply?source=Job_Board_LinkedIn,Data Analyst,1,A
+132,George,3/13/2022,3/2/2022,3/27/2022,2,North Carolina State University,LinkedIn,https://ncsu-sb.peopleadmin.com/postings/144281,Data Analyst,0,A
 133,George,3/14/2022,3/2/2022,3/28/2022,1,Horizontal Talent,LinkedIn,https://www.horizontaltalent.com/job-board/54475,Data Analyst,0,A
 134,George,3/14/2022,3/2/2022,3/28/2022,2,Charter School Growth Fund (CSGF) ,LinkedIn,https://chartergrowthfund.org/work-with-us/careers/?gh_jid=5947028002,Data Visualization Analyst,0,A
 135,George,3/14/2022,3/2/2022,3/28/2022,1,H&M,LinkedIn,https://jobs.smartrecruiters.com/HMGroup/743999808867458-data-analyst.html,Data Analyst,0,A
@@ -147,7 +136,6 @@ job_number,Applied_By,Applied_Date,Date_found,Response_due_date,Resume_type,comp
 146,George,3/14/2022,3/2/2022,3/28/2022,2,"Internet Brands, Inc.",LinkedIn,https://jobs.jobvite.com/internetbrands/job/oWyKifwg?__jvst=Job%20Board&__jvsd=LinkedIn,Data Analyst,0,A
 147,George,3/14/2022,3/2/2022,3/28/2022,2,Craft,LinkedIn,https://boards.greenhouse.io/craftco/jobs/4968845003?gh_jid=4968845003,Data Analyst,0,A
 148,Giulia,3/26/2022,3/2/2022,4/9/2022,1,UCSF Health,LinkedIn,https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=6495&siteid=5861&Areq=64206BR#jobDetails=3251372_5861,Data Scientist ,0,S
-149,Giulia,3/26/2022,3/2/2022,4/9/2022,2,Iowa Primary Care Association’s (PCA’s),LinkedIn,https://iowapca.org/iowa-health-care-jobs/data-analyst-des-moines-ia,Healthcare Data Analyst,0,A
 150,Giulia,3/26/2022,3/2/2022,4/9/2022,1,Compass Group,LinkedIn,https://careers.compassgroupcareers.com/human-resources-manager/job/18496496,HR Data Analyst,0,A
 151,Giulia,3/26/2022,3/2/2022,4/9/2022,1,Kubota Tractor Corporation,LinkedIn,https://us61e2.dayforcehcm.com/CandidatePortal/en-US/kubota/Posting/View/3822,Data Analyst II,0,A
 152,Giulia,3/26/2022,3/2/2022,4/9/2022,1,WEX,LinkedIn,https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/Portland-ME/Data-Analyst--Product-Analyst_R6916?source=Linkedin,"Data Analyst, Product Analyst",0,A
@@ -162,17 +150,17 @@ job_number,Applied_By,Applied_Date,Date_found,Response_due_date,Resume_type,comp
 161,George,3/27/2022,3/2/2022,4/10/2022,1,Lawson Products,LinkedIn,https://lawson.avature.net/en_US/LawsonCareers/JobDetail/Business-Data-Analyst/3339?source=LinkedIn,Customer Data Analyst,0,A
 162,George,3/27/2022,3/2/2022,4/10/2022,1,WestRock Co,LinkedIn,https://jobs.westrock.com/jobs/administrative/forest-city/pc-data-analyst/ATR14610#/,PC Data Analyst,0,A
 163,George,3/27/2022,3/2/2022,4/10/2022,2,Tipalti,LinkedIn,https://tipalti.com/jobs/?gh_jid=4340044004&gh_src=f8165a1a4us,Compliance Data Analyst,0,A
-164,Giulia,3/29/22,3/2/2022,4/12/2022,1,Teladoc Health,LinkedIn,https://teladochealth.eightfold.ai/careers?pid=10765663&domain=livongo.com,Data Scientist - Member Engagement,0,S
-165,Giulia,3/26/22,3/2/2022,4/9/2022,2,Southeast Toyota Distributors,LinkedIn,https://southeasttoyotacareers-jmfamily.icims.com/jobs/6197/planning-associate-data-analyst/job?hub=11&mode=job&iis=Job+Board&iisn=LinkedIn&mobile=false&width=1110&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,Planning Associate Data Analyst,0,A
+164,Giulia,3/29/2022,3/2/2022,4/12/2022,1,Teladoc Health,LinkedIn,https://teladochealth.eightfold.ai/careers?pid=10765663&domain=livongo.com,Data Scientist - Member Engagement,0,S
+165,Giulia,3/26/2022,3/2/2022,4/9/2022,2,Southeast Toyota Distributors,LinkedIn,https://southeasttoyotacareers-jmfamily.icims.com/jobs/6197/planning-associate-data-analyst/job?hub=11&mode=job&iis=Job+Board&iisn=LinkedIn&mobile=false&width=1110&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,Planning Associate Data Analyst,0,A
 166,George,3/27/2022,3/2/2022,4/10/2022,2,Callaway Golf Company,LinkedIn,https://recruiting2.ultipro.com/CAL1002CAGCO/JobBoard/9f3cffe4-99b4-45b3-b485-1515348bdf84/OpportunityDetail?opportunityId=6d7e66e2-b983-43fe-991e-ad5057058bee&utm_source=LINKEDIN&utm_medium=referrer,Sr Sales Data & Visualization Analyst,1,A
 167,Giulia,3/29/2022,3/2/2022,4/12/2022,1,Barracuda,LinkedIn,http://jobs.jobvite.com/barracuda-networks-inc/job/oFdBifwv?__jvst=Job%20Board&__jvsd=LinkedIn,Data Science Analyst,0,A
 168,George,3/27/2022,3/2/2022,4/10/2022,1,Madison-Davis LLC,LinkedIn,https://madisondavis.com/job/threat-analytics-data-scientist/,Threat Analytics Data Scientist,0,S
 169,Giulia,3/23/2022,3/2/2022,4/6/2022,2,NorthOne,LinkedIn,https://boards.greenhouse.io/northone/jobs/5927453002?s=LinkedIn&source=LinkedIn,"Data Analyst, Growth",0,A
-170,Giulia,3/29/22,3/2/2022,4/12/2022,1,Commonwealth Care Alliance,LinkedIn,https://recruiting.adp.com/srccar/public/nghome.guid?c=1171951&d=ExternalCareerSite&prc=RMPOD3&r=5000815022806#/,Data Scientist,0,S
-171,Giulia,3/29/22,3/2/2022,4/12/2022,1,Nesco Resource,LinkedIn,https://nescoresource.com/jobsearch/job-details/data-analyst-16620822-1-jobdiva/,Data Analyst,0,A
+170,Giulia,3/29/2022,3/2/2022,4/12/2022,1,Commonwealth Care Alliance,LinkedIn,https://recruiting.adp.com/srccar/public/nghome.guid?c=1171951&d=ExternalCareerSite&prc=RMPOD3&r=5000815022806#/,Data Scientist,0,S
+171,Giulia,3/29/2022,3/2/2022,4/12/2022,1,Nesco Resource,LinkedIn,https://nescoresource.com/jobsearch/job-details/data-analyst-16620822-1-jobdiva/,Data Analyst,0,A
 172,Giulia,3/23/2022,3/2/2022,4/6/2022,1,Healthmap Solutions ,LinkedIn,https://jobs.jobvite.com/healthmapsolutions/job/oJPuifw4?__jvst=Job%20Board&__jvsd=LinkedIn,Senior Data Analyst,0,A
 173,Giulia,3/23/2022,3/8/2022,4/6/2022,2,onsolve,LinkedIn,https://recruiting.ultipro.com/ONS1003ONSL/JobBoard/a104d5ff-29b0-4f98-851b-9bbb77383377/OpportunityDetail?opportunityId=c25f2f0c-5424-4334-b586-23ed5dd16dff&utm_source=LINKEDIN,Data Scientist (Junior),0,S
-174,Giulia,3/29/22,3/8/2022,4/12/2022,2,Shift Technology,LinkedIn,https://www.shift-technology.com/careers/?gh_jid=4511248003,Data Scientist / Engineer -US Remote,0,S
+174,Giulia,3/29/2022,3/8/2022,4/12/2022,2,Shift Technology,LinkedIn,https://www.shift-technology.com/careers/?gh_jid=4511248003,Data Scientist / Engineer -US Remote,0,S
 175,Giulia,3/23/2022,3/9/2022,4/6/2022,1,"Hunt Companies, Inc",LinkedIn,https://recruiting2.ultipro.com/HUN1008HCBB/JobBoard/a501bac4-eef8-405b-b29d-022e29a6b358/OpportunityDetail?opportunityId=ad882182-f327-4d5d-9c9a-236b6ac2816e&utm_source=LINKEDIN&utm_medium=referrer,Data Scientist - Remote,0,S
 176,George,3/27/2022,3/9/2022,4/10/2022,1,Uber,LinkedIn,https://www.uber.com/global/en/careers/list/112199/?iis=marketing&iisn=Linkedin&iisp=paid&linkedin_sponsored=sponsored&rx_campaign=Linkedin1&rx_group=1462&rx_job=112199_DF3A9651&rx_medium=post&rx_r=none&rx_source=Linkedin&rx_ts=20220309T180303Z&rx_viewer=53ad6f307e9311ecab8a29ab98b906fd84dfdf3ae59d4cc7ad57aa72be933808,Data Analyst,0,A
 177,George,3/27/2022,3/9/2022,4/10/2022,1,RGP,LinkedIn,https://careers.rgp.com/job/13542309/data-analyst/,Data Analyst,0,A
