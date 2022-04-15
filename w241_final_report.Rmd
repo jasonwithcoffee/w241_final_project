@@ -30,19 +30,38 @@ head(d)
 
 
 ```{r}
+d$data_analyst <- ifelse(d$job_type=="A",TRUE,FALSE)
+d$data_scientist <- ifelse(d$job_type=="S",TRUE,FALSE)
+d$control <- ifelse(d$Resume_type==1,TRUE,FALSE)
+d$treatment <- ifelse(d$Resume_type==2,TRUE,FALSE)
+
+d$data_analyst_contol = d$data_analyst & d$control
+d$data_analyst_treatment = d$data_analyst & d$treatment
+d$data_scientist_contol = d$data_scientist & d$control
+d$data_scientist_treatment = d$data_scientist & d$treatment
+
 mod_basic <- lm(recruiter_responded ~ Resume_type,data=d)
-mod_job <- lm(recruiter_responded ~ Resume_type + job_type,data=d)
+mod_job <- lm(recruiter_responded ~ Resume_type + data_analyst,data=d)
+mod_sat <- lm(recruiter_responded ~  data_scientist_treatment + 
+                data_analyst_contol + data_analyst_treatment ,data=d)
+mod_sat <- lm(recruiter_responded ~  data_scientist_treatment + 
+                data_analyst_contol + data_analyst_treatment ,data=d)
 
 robust_se_b <- sqrt(diag(vcovHC(mod_basic, type = "HC1")))
 robust_se_j <- sqrt(diag(vcovHC(mod_job, type = "HC1")))
+robust_se_s <- sqrt(diag(vcovHC(mod_sat, type = "HC1")))
 
-stargazer(mod_basic,mod_job, type = "text",
-          se = list(robust_se_b,robust_se_j),
-          column.labels = c('Basic','Job Type as Variable'))
+#stargazer(mod_basic,mod_job, type = "text",
+#          se = list(robust_se_b,robust_se_j),
+#          column.labels = c('Basic','Job Type as Variable'))
+stargazer(mod_basic,mod_job,mod_sat, type = "text",
+          se = list(robust_se_b,robust_se_j,robust_se_s),
+          column.labels = c('Basic','Job Type as Variable','Heterogenious'))
 ```
 ```{r hajj randomization inference, include=TRUE}
 job_ate = mod_basic$coefficients[2]
 N=length(d$recruiter_responded)
+
 
 #Defines Function to calculate ATE from dataframe
 calc_ATE <- function(d) { 
@@ -62,8 +81,11 @@ run_RI <- function(n, d) {
   steps = seq(1, n, by=1)
   for (i in steps )
   {
+  
   Resume_type_i<- rep(c(1, 2), each = ceiling(N/2))
   Resume_type_i<- sample(Resume_type_i,N)
+  
+  
 
   d_i$Resume_type = Resume_type_i
   ATE_i = calc_ATE(d_i)
@@ -75,9 +97,11 @@ run_RI <- function(n, d) {
 #Run Random Inference
 n = 10000
 job_ri_distribution <- run_RI(n, d)
+stat_sig <- qnorm(0.95)*sd(job_ri_distribution)
 #Plot Histogram of RI(n=10,000) with our actual experiment's ATE
 hist(job_ri_distribution, col="lightblue")
 abline(v = job_ate, col="black", lwd=3, lty=2)
+abline(v = stat_sig, col="red", lwd=2)
 ```
 
 ```{r}
