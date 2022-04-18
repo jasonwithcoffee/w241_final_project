@@ -51,15 +51,20 @@ Our control resume states that Sam is a self motivated learner who has programmi
 
 Our control resume will be designed to represent a young professional (age 25) who is interested in becoming a Data Scientist and is currently working as an Analyst. The details of this control resume were inspired by what our team would imagine a first semester MIDS student’s resume would look like: above average school record, an interest in data through either work experience or personal projects, and some level of programming experience. 
 
-We chose to name this individual Sam Anderson. Sam is a gender neutral name to avoid any unintended bias and Anderson was chosen from the top 20 common American last names. We sent Sam to the University of Washington, a well performing university but without huge name recognition. We gave Sam an undergraduate major outside of STEM fields so that the recruiters would be forced to focus on Sam’s work experience and graduate studies. Sam’s contact information will reflect that they are applying to a job near them. In order to display Sam’s interest in Data Science, we will include a personal project in this resume in which Sam will describe their personal project of working on a Kaggle competition. 
+We chose to name this individual Sam Anderson. Sam is a gender neutral name to avoid any unintended bias and Anderson was chosen from the top 20 common American last names [Infoplease](https://www.infoplease.com/us/population/most-common-last-names-us). Sam's undergraduate career took place at the University of Washington, a well performing university but without huge name recognition. We gave Sam an undergraduate major outside of STEM fields so that the recruiters would be forced to focus on Sam’s work experience and graduate studies. Sam’s contact information will reflect that they are applying to a job near them. In order to display Sam’s interest in Data Science, we will include a personal project in this resume in which Sam will describe their personal project of working on a Kaggle competition. 
 
 To ensure that receiving a response is solely dependent on the inclusion or exclusion of the MIDS degree, all other fields in the resume were identical between the control and treatment groups. The treatment group in this experiment is the resume with the MIDS degree included, completing the program part time while still getting the same years of experience. 
 
 ## Inclusion Criteria
-Job postings were collected through job boards LinkedIn and Indeed, with searching for roles for Data Analyst and Data Scientist. When selecting roles to apply for, we limited the roles based in the United States with experience ranging from entry to senior level. Through observations, we noticed that there were conflicting experience levels for these roles, based on the basic requirements of the job description. 
+Job postings were collected through job boards LinkedIn and Indeed, with searching for roles for Data Analyst and Data Scientist. When selecting roles to apply for, we limited the roles based in the United States with experience ranging from entry to senior level. Through observations, we noticed that there were conflicting experience levels for these roles, based on the basic requirements of the job description and decided to include roles based on the requirements listed in the job description. Additionally, once roles were identified on the job boards, the application process would take place on the company website. Roles that did not have links to company websites were not included in the final population. 
 
 ## Randomization
-A Python script was created that ensured an even distribution of the control and treatment groups, based on whether the role was for a data analyst or scientist. Distribution of the random assignments are shown in Figures 1 and 2
+A Python script was created that ensured an even distribution of the control and treatment groups, based on whether the role was for a data analyst or scientist. Distribution of the random assignments are shown in Figures 1 and 2.
+
+```{r, include=FALSE, warning=FALSE, message=FALSE}
+d <- read.csv(file = 'flow_documents.png')
+# head(d)
+```
 
 ## Outcome Measure
 The outcome measure is a binary response as the following:
@@ -67,6 +72,9 @@ The outcome measure is a binary response as the following:
 * 1 - Contact with an organization regarding an invitation to either a phone screening or an interview, prior to the close of the study
 
 * 0 - No contact with an organization prior to close of the study or contact declining further consideration
+
+
+The official close of the study was on April 12, 2022, where all outcomes were collected and an analysis was performed. 
 
 
 ## Power Calculation
@@ -188,7 +196,8 @@ abline(v = stat_sig, col="red", lwd=2)
 ## Conclusion
 
 
-# Future Works
+# Future Considerations
 
+It is understood that there were limitations to our experiment, mainly due to our power calculations. There are many other considerations if we were to attempt this experiment again. One future consideration would be to block on 
 
 
