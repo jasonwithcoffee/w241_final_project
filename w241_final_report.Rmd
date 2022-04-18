@@ -64,7 +64,7 @@ A Python script was created that ensured an even distribution of the control and
 
 ```{r, include=FALSE, warning=FALSE, message=FALSE}
 
-img <- readPNG('/flow documents.png')
+img <- readPNG('/flow_documents.png')
 grid::grid.raster(img)
 ```
 
