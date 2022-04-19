@@ -62,10 +62,7 @@ Job postings were collected through job boards LinkedIn and Indeed, with searchi
 ## Randomization
 A Python script was created that ensured an even distribution of the control and treatment groups, based on whether the role was for a data analyst or scientist. Distribution of the random assignments are shown in Figures 1 and 2.
 
-```{r, include=FALSE, warning=FALSE, message=FALSE}
-img <- readPNG('/flow_documents.png')
-grid::grid.raster(img)
-```
+![flow_document](flow_documents.png)
 
 ## Outcome Measure
 The outcome measure is a binary response as the following:
@@ -208,7 +205,7 @@ text(stat_sig+.05,1600, "(5%)")
 This is a histogram of randomly generated ATE's from our collected data. Our ATE is shown in a dashed black line. A statistically significant finding using a 1-Tailed T-Test is shown in red. As you can see from this histogram of randomly generated ATE's, our experiment's ATE is not sufficiently large enough to be considered statistically significant. This conclusion agrees with our findings from our linear regression models. 
 
 ## Conclusion
-
+In this experiment, we set out to answer the question: "Does having a UC Berkeley Master’s in Data Science on a resume impact success in pursuing a job?" The effect of including one line of master's degree in the resume was small and not statistically significant through the data that was collected. Irrespective of resume types of the experiment, we found statistically significant differences based on the two job application roles: data scientist and data analyst.
 
 # Future Considerations
 
