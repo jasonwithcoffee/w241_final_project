@@ -62,7 +62,7 @@ Job postings were collected through job boards LinkedIn and Indeed, with searchi
 ## Randomization
 A Python script was created that ensured an even distribution of the control and treatment groups, based on whether the role was for a data analyst or scientist. Distribution of the random assignments are shown in Figures 1 and 2.
 
-![flow_document](flow_documents.png)
+![flow_document](flow_documents_2.png)
 
 ## Outcome Measure
 The outcome measure is a binary response as the following:
