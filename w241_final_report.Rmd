@@ -63,7 +63,6 @@ Job postings were collected through job boards LinkedIn and Indeed, with searchi
 A Python script was created that ensured an even distribution of the control and treatment groups, based on whether the role was for a data analyst or scientist. Distribution of the random assignments are shown in Figures 1 and 2.
 
 ```{r, include=FALSE, warning=FALSE, message=FALSE}
-
 img <- readPNG('/flow_documents.png')
 grid::grid.raster(img)
 ```
@@ -95,12 +94,12 @@ d <- read.csv(file = 'MIDS_App_Data.csv')
 # head(d)
 ```
 
-In the experiment, we acquired 84 samples in both the treatment and control groups. We measured the outcome variable as requests for interviews from the job application. When observing the response rates, we see that the Treatment condition with MIDS degree had a higher response rate at 8.33%, though not with statistical significance as we detailed in the modeling section.
+In the experiment, we acquired 83 control samples and 82 treatment samples. We measured the outcome variable as requests for interviews from the job application. When observing the response rates, we see that the Treatment condition with MIDS degree had a higher response rate at 8.33%, though not with statistical significance as we detailed in the modeling section.
 
 | Resume_Type     | Data_Analyst | Data_Scientist  | Total       | Response_Rate |
 |-----------------|--------------|-----------------|-------------|-------------|
-| Control         | 39           | 45              | 84          | 4.76%       |
-| Treatment       | 39           | 45              | 84          | 8.33%       |
+| Control         | 38           | 45              | 83          | 6.02%       |
+| Treatment       | 38           | 44              | 82          | 9.76%       |
 \begin{center} 
 Table 1: Summary of experiment data 
 \end{center}
@@ -139,17 +138,26 @@ robust_se_b <- sqrt(diag(vcovHC(mod_basic, type = "HC1")))
 robust_se_j <- sqrt(diag(vcovHC(mod_job, type = "HC1")))
 robust_se_s <- sqrt(diag(vcovHC(mod_sat, type = "HC1")))
 
-#stargazer(mod_basic,mod_job, type = "text",
-#          se = list(robust_se_b,robust_se_j),
-#          column.labels = c('Basic','Job Type as Variable'))
+cb <- mod_basic$coefficients
+cj <- mod_job$coefficients
+cs <- mod_sat$coefficients
+print(cb)
+```
+\newpage
+```{r}
 stargazer(mod_basic,mod_job,mod_sat, type = "text",
           se = list(robust_se_b,robust_se_j,robust_se_s),
           column.labels = c('Basic','Job Type as Variable','Heterogeneous'))
 ```
 
+Our most basic model simply used our treatment variable (resume type) to estimate our outcome variable (positive employer response). This model showed a `r round(cb[2],3)`%  (CI: `r round(cb[2]-1.96*robust_se_b[2],3)`%,`r round(cb[2]+1.96*robust_se_b[2],3)`%) ATE for the MIDs Resume Treatment. This result was not found to be statistically significant. 
 
+The next model also uses our blocking variable (job type) as a model input. This model showed a `r round(cj[1],3)`% (CI: `r round(cj[1]-1.96*robust_se_j[1],3)`%,`r round(cj[1]+1.96*robust_se_j[1],3)`%) ATE for the MIDs Resume Treatment and a `r round(cj[2],3)%` (CI: `r round(cj[2]-1.96*robust_se_j[2],3)`%,`r round(cj[2]+1.96*robust_se_j[2],3)%`) effect associated with applying to a Data Analyst position instead of a Data Scientist position. This model' This result's ATE was not found to be statistically significant, although it is important to note that we found a statistically significant difference between Data Scientist and Data Analyst response rates. 
 
-```{r hajj randomization inference, include=TRUE}
+Our last model is a fully saturated model used to evaluate the heterogeneous effects of resume type and job type. This model showed a `r round(cj[1],3)`% (CI: `r round(cj[1]-1.96*robust_se_j[1],3)`%,`r round(cj[1]+1.96*robust_se_j[1],3)`%) response rate for Data Scientist jobs with the control resume, a `r round(cj[2],3)`% (CI: `r round(cj[2]-1.96*robust_se_j[2],3)`%,`r round(cj[2]+1.96*robust_se_j[2],3)`%) response rate for Data Scientist jobs with the treatment resume, a `r round(cj[3],3)`% (CI: `r round(cj[3]-1.96*robust_se_j[3],3)`%,`r round(cj[3]+1.96*robust_se_j[3],3)`%) response rate for Data Analyst jobs with the control resume, and a `r round(cj[4],3)`% (CI: `r round(cj[4]-1.96*robust_se_j[4],3)`%,`r round(cj[4]+1.96*robust_se_j[4],3)`%) response rate for Data Analyst jobs with the treatment resume. This model highlights a disappointing result, we received no positive responses for any Data Scientist positions. However by evaluating the heterogeneous effects of resume type and job type, we have uncovered that a control resume or treatment resume that was sent to a Data Analyst position had a statistically significant increase compared to a control resume sent to a Data Scientist position. This agrees with our last model which showed that there was a statistically significant difference between Data Scientist and Data Analyst positions.
+
+Next in order to visualize the statistical significance of our experiment's ATE, we used the Random Inference process. 
+```{r randomization inference, include=TRUE}
 job_ate = mod_basic$coefficients[2]
 N=length(d$recruiter_responded)
 
@@ -172,11 +180,8 @@ run_RI <- function(n, d) {
   steps = seq(1, n, by=1)
   for (i in steps )
   {
-  
   Resume_type_i<- rep(c(1, 2), each = ceiling(N/2))
   Resume_type_i<- sample(Resume_type_i,N)
-  
-  
 
   d_i$Resume_type = Resume_type_i
   ATE_i = calc_ATE(d_i)
@@ -184,16 +189,23 @@ run_RI <- function(n, d) {
   }
   return(distribution_n)
 }
-
 #Run Random Inference
 n = 10000
 job_ri_distribution <- run_RI(n, d)
 stat_sig <- qnorm(0.95)*sd(job_ri_distribution)
-#Plot Histogram of RI(n=10,000) with our actual experiment's ATE
-hist(job_ri_distribution, col="lightblue")
-abline(v = job_ate, col="black", lwd=3, lty=2)
-abline(v = stat_sig, col="red", lwd=2)
 ```
+```{r randomization inference hist, include=TRUE}
+#Plot Histogram of RI(n=10,000) with our actual experiment's ATE
+hist(job_ri_distribution, col="lightblue", 
+     main="Histogram of Randomly Generated ATEs",
+     xlab="ATE Distribution")
+abline(v = job_ate, col="black", lwd=3, lty=2)
+text(job_ate,2150, "Our ATE")
+abline(v = stat_sig, col="red", lwd=2)
+text(stat_sig+.05,1800, "1-Tailed T-Test")
+text(stat_sig+.05,1600, "(5%)")
+```
+This is a histogram of randomly generated ATE's from our collected data. Our ATE is shown in a dashed black line. A statistically significant finding using a 1-Tailed T-Test is shown in red. As you can see from this histogram of randomly generated ATE's, our experiment's ATE is not sufficiently large enough to be considered statistically significant. This conclusion agrees with our findings from our linear regression models. 
 
 ## Conclusion
 
